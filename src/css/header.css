@@ -1,0 +1,9 @@
+.container {
+    width: 1200px;
+    flex-shrink: 0;
+}
+
+.header-box {
+display: flex;
+
+}
