@@ -1,0 +1,68 @@
+
+.products {
+background-image: url(../img/icecr-bg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+.natural {
+    text-align: center;
+}
+
+.produts-title{
+    text-align: center;
+}
+
+.img-product{
+margin-right: 29px;
+
+}
+
+.img-product2 {
+
+}
+
+.img-product3{
+
+}
+
+.product-list{
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+}
+
+.product-card {
+    border-radius: 24px;
+background: #AEC6A5;
+box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
+width: 370px;
+height: 536px;
+
+}
+
+.product-card2{
+    border-radius: 24px;
+background: #EFD478;
+width: 370px;
+height: 536px;
+}
+
+.product-card3{
+    border-radius: 24px;
+background: #D6936D;
+width: 370px;
+height: 536px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 700;
+}
+.card-text {
+    text-align: center;
+    margin-top: 66px;
+    font-size: 16px;
+    font-weight: 400;
+}
