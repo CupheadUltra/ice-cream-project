@@ -8,6 +8,16 @@
 @import url("./locations.css");
 @import url("./footer.css");
 
+:root {
+    --bg-color: #84A178;
+    --text-color: #F8D24E;
+    --second-text-color: #FCFCFC;
+    --other-text-color: #131313;
+    --products-one: #AEC6A5;
+    --products-two: #EFD478;
+    --products-three: #D6936D;
+    --footer-mark: #7A7A7A;
+}
 .container {
   width: 1200px;
   flex-shrink: 0;
