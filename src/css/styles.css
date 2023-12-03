@@ -22,9 +22,6 @@
 .container {
   width: 1440px;
   flex-shrink: 0;
-  /* outline: solid red; */
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .header-box {
