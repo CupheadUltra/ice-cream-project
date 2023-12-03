@@ -1,0 +1,57 @@
+.hero {
+    background: #84A178;
+}
+
+.header-box {
+ display: flex;
+}
+
+.hero-title {
+    color: #FCFCFC;
+
+font-family: Seymour One;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.52px;
+text-transform: uppercase;
+}
+
+.group-h2 {
+    color: #131313;
+
+
+font-family: Montserrat;
+font-size: 46px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.84px;
+text-transform: uppercase;
+}
+
+.group-p {
+    color: #FCFCFC;
+
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.menu-link {
+    font-family: Montserrat;
+}
+
+.arrow {
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
