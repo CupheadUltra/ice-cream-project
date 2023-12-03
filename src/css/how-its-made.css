@@ -1,0 +1,44 @@
+.howitsmade {
+    background-color: var(--bg-color);
+}
+.about-uptitle {
+    color: var(--second-text-color);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.about-title {
+    color: var(--second-text-color);
+    text-align: center;
+    font-family: 'Seymour One';
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+}
+.about-text {
+    color: var(--second-text-color);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.76;
+    letter-spacing: 0.64px;
+}
+.about-button {
+    color: var(--black-color);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.28;
+    border-radius: 10px;
+    background-color: var(--products-two);
+    padding: 12px 35px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
