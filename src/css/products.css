@@ -4,6 +4,7 @@ background-image: url(../img/icecr-bg.png);
 background-repeat: no-repeat;
 background-size: 100%;
 padding-top: 60px;
+padding-bottom: 20px;
 }
 
 .natural {
@@ -24,25 +25,28 @@ padding-top: 60px;
     font-weight: 400;
     letter-spacing: 2.16px;
     text-transform: uppercase;
-    margin-bottom: 120px;
+    margin-bottom: 240px;
 }
 
 .img-product{
 padding-left: 34px;
 padding-right: 34px;
-margin-bottom: 46px;
+position: relative;
+bottom:151px;
 }
 
 .img-product2 {
     padding-left: 34px;
     padding-right: 34px;
-    margin-bottom: 46px;
+    position: relative;
+bottom:151px;
 }
 
 .img-product3{
     padding-left: 34px;
     padding-right: 34px;
-    margin-bottom: 46px;
+position: relative;
+bottom:151px;
 }
 
 .product-list{
@@ -56,7 +60,7 @@ margin-bottom: 46px;
 background-color: var(--products-one);
 box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
 width: 370px;
-height: 536px;
+
 padding-bottom: 126px;
 }
 
@@ -64,15 +68,14 @@ padding-bottom: 126px;
     border-radius: 24px;
 background-color: var(--products-two);
 width: 370px;
-height: 536px;
+
 padding-bottom: 126px;
 }
 
 .product-card3{
     border-radius: 24px;
 background-color: var(--products-three);
-width: 370px;
-height: 536px;
+
 padding-bottom: 126px;
 
 }
