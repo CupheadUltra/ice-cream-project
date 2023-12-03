@@ -20,11 +20,8 @@
     --black-color: #000000;
 }
 .container {
-  width: 1200px;
+  width: 1440px;
   flex-shrink: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
 }
 
 .header-box {

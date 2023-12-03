@@ -3,28 +3,46 @@
 background-image: url(../img/icecr-bg.png);
 background-repeat: no-repeat;
 background-size: 100%;
-
+padding-top: 60px;
 }
 
 .natural {
+    color: var(--other-text-color);
     text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 
 .produts-title{
+    color: var(--other-text-color);
     text-align: center;
+    font-family: Seymour One;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+    margin-bottom: 120px;
 }
 
 .img-product{
-margin-right: 29px;
-
+padding-left: 34px;
+padding-right: 34px;
+margin-bottom: 46px;
 }
 
 .img-product2 {
-
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-bottom: 46px;
 }
 
 .img-product3{
-
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-bottom: 46px;
 }
 
 .product-list{
@@ -35,34 +53,51 @@ margin-right: 29px;
 
 .product-card {
     border-radius: 24px;
-background: #AEC6A5;
+background-color: var(--products-one);
 box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
 width: 370px;
 height: 536px;
-
+padding-bottom: 126px;
 }
 
 .product-card2{
     border-radius: 24px;
-background: #EFD478;
+background-color: var(--products-two);
 width: 370px;
 height: 536px;
+padding-bottom: 126px;
 }
 
 .product-card3{
     border-radius: 24px;
-background: #D6936D;
+background-color: var(--products-three);
 width: 370px;
 height: 536px;
+padding-bottom: 126px;
+
 }
 
 .card-title {
+    color: var(--other-text-color);
     text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 .card-text {
-    text-align: center;
-    margin-top: 66px;
-    font-size: 16px;
-    font-weight: 400;
+    color: var(--other-text-color);
+    width: 242px;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.76;
+letter-spacing: 0.64px;
+margin-top: 66px;
+padding-left: 64px;
+padding-right: 64px;
 }
