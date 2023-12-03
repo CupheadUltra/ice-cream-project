@@ -21,6 +21,9 @@
 .container {
   width: 1200px;
   flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
 }
 
 .header-box {
