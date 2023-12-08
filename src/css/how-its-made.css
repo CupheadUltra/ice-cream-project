@@ -19,6 +19,14 @@
     letter-spacing: 2.16px;
     text-transform: uppercase;
 }
+.about-article {
+    display: flex;
+    gap: 109px;
+    align-items: center;
+}
+.about-text:last-child {
+    padding-top: 8px;
+}
 .about-text {
     color: var(--second-text-color);
     font-family: 'Montserrat';
