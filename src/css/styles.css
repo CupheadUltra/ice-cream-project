@@ -8,6 +8,10 @@
 @import url("./locations.css");
 @import url("./footer.css");
 
+body {
+  font-family: Montserrat;
+}
+
 :root {
     --bg-color: #84A178;
     --text-color: #F8D24E;
@@ -19,6 +23,7 @@
     --footer-mark: #7A7A7A;
     --black-color: #000000;
 }
+
 .container {
   width: 1440px;
   margin: 0 auto;
