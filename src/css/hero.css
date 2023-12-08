@@ -1,5 +1,6 @@
 .hero {
     background: #84A178;
+    
 }
 
 .header-box {
@@ -7,6 +8,7 @@
 }
 
 .hero-title {
+    padding-top: 40px;
     color: #FCFCFC;
 
 font-family: Seymour One;
@@ -16,9 +18,22 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 1.52px;
 text-transform: uppercase;
+width: 367px;
+
 }
 
-.group-h2 {
+
+
+.group-item {
+    display: flex;
+    width: 89px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+
+.group-numbers {
     color: #131313;
 
 
@@ -31,27 +46,44 @@ letter-spacing: 1.84px;
 text-transform: uppercase;
 }
 
-.group-p {
+.group-building {
     color: #FCFCFC;
 
 
 font-family: Montserrat;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.other-sections {
+    display: flex;
+}
+
+.other-sections-item {
+    margin-right: 12px;
 }
 
 .menu-link {
     font-family: Montserrat;
 }
 
+.many-ice-cream {
+    display: flex;
+    padding-bottom: 65px;
+
+}
+
 .arrow {
+    display: flex;
     color: #FFF;
 
 font-family: DM Sans;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 140%;
+width: 200px;
+margin-left: 16px;
+
+
 }
