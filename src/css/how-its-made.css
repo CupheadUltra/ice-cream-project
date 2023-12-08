@@ -24,8 +24,8 @@
     gap: 109px;
     align-items: center;
 }
-.about-text:last-child {
-    padding-top: 8px;
+.about-text-last{
+    margin-top: 8px;
 }
 .about-text {
     color: var(--second-text-color);
@@ -36,6 +36,7 @@
     letter-spacing: 0.64px;
 }
 .about-button {
+    margin-top: 54px;
     color: var(--black-color);
     font-family: 'Montserrat';
     font-size: 14px;
@@ -44,9 +45,5 @@
     border-radius: 10px;
     background-color: var(--products-two);
     padding: 12px 35px;
-    display: flex;
     border: none;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
 }
