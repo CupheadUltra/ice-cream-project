@@ -2,12 +2,18 @@
 background-image: url(../img/icecr-bg.png);
 background-size: 100%;
 background-repeat: no-repeat;
+padding-bottom: 230px;
+background-size: cover;
+padding-top: 465px;
 }
 
 .review-picture {
   text-align: center;
+  position: absolute;
+  left: 95px;
   width: 1013px;
   height: 422px;
+  bottom: 500px;
   flex-shrink: 0;
 }
 
@@ -15,19 +21,30 @@ review-avatar{
     border-radius:50%;
     text-align: center;
     width: 85px;
+    border-radius: 50%;
+    font-weight: 500;
+    border-radius: 50%; 
     height: 85px;
+    margin: 0;
+    line-height: 1.86;
     flex-shrink: 0;
+    font-size: 16px;
 }
 
 review-text{
   text-align: center;
   width: 750px;
   height: 52px;
+  border-radius: 25px;
   flex-shrink: 0;
+  box-sizing: content-box;
   font-size: 16px;
+  padding: 43px 74px;
   font-weight: 500;
   line-height: 186%; 
   letter-spacing: 0.64px;
+  margin: 32px;
+  padding: 43px 74px;
 }
 
 review-name{
@@ -41,6 +58,10 @@ review-name{
 
 review-dots{
   text-align: center;
+  justify-content: center;
   width: 72px;
   height: 12px;
+  margin-top: 32px;
+  display: flex;
+  gap: 18px;
 }
