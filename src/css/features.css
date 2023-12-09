@@ -1,5 +1,6 @@
 .features {
     background-color: var(--bg-color);
+    padding-top: 60px;
 }
 .features-list {
     display: flex;
