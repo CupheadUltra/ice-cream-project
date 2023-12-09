@@ -10,7 +10,6 @@ padding-bottom: 20px;
 .natural {
     color: var(--other-text-color);
     text-align: center;
-    font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
     letter-spacing: 1.2px;
@@ -29,22 +28,16 @@ padding-bottom: 20px;
 }
 
 .img-product{
-padding-left: 34px;
-padding-right: 34px;
 position: relative;
 bottom:151px;
 }
 
 .img-product2 {
-    padding-left: 34px;
-    padding-right: 34px;
-    position: relative;
+position: relative;
 bottom:151px;
 }
 
 .img-product3{
-    padding-left: 34px;
-    padding-right: 34px;
 position: relative;
 bottom:151px;
 }
@@ -83,7 +76,6 @@ padding-bottom: 126px;
 .card-title {
     color: var(--other-text-color);
     text-align: center;
-    font-family: Montserrat;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -95,7 +87,6 @@ padding-bottom: 126px;
     color: var(--other-text-color);
     width: 242px;
 text-align: center;
-font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.76;
