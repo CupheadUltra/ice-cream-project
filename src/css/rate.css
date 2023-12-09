@@ -1,67 +1,71 @@
 .rate {
-background-image: url(../img/icecr-bg.png);
-background-size: 100%;
-background-repeat: no-repeat;
-padding-bottom: 230px;
-background-size: cover;
-padding-top: 465px;
+  background-image: url(../img/icecr-bg.png);
+  background-repeat: no-repeat;
+  background-color: var(--additional);
+  background-size: cover;
+  padding-top: 464px;
+  padding-bottom: 228px;
 }
 
-.review-picture {
+.reviews-container {
+  position: relative;
+}
+
+.reviews-name {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
   text-align: center;
+}
+
+.reviews-pixture {
   position: absolute;
-  left: 95px;
-  width: 1013px;
-  height: 422px;
-  bottom: 500px;
-  flex-shrink: 0;
+  bottom: 501px;
+  left: 93px;
 }
 
-review-avatar{
-    border-radius:50%;
-    text-align: center;
-    width: 85px;
-    border-radius: 50%;
-    font-weight: 500;
-    border-radius: 50%; 
-    height: 85px;
-    margin: 0;
-    line-height: 1.86;
-    flex-shrink: 0;
-    font-size: 16px;
+.reviews-avatar {
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
-review-text{
-  text-align: center;
-  width: 750px;
-  height: 52px;
-  border-radius: 25px;
-  flex-shrink: 0;
-  box-sizing: content-box;
+.reviews-text {
+  color: var(--additional);
+  background-color: var(--main-bg);
+  border-radius: 24px;
   font-size: 16px;
-  padding: 43px 74px;
   font-weight: 500;
-  line-height: 186%; 
+  line-height: 1.86;
   letter-spacing: 0.64px;
-  margin: 32px;
+  margin: 32px auto;
+  text-align: center;
   padding: 43px 74px;
+  width: 750px;
+  box-sizing: content-box;
 }
 
-review-name{
-  text-align: center;
-  color: #131313;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 186%;
-}
 
-review-dots{
-  text-align: center;
-  justify-content: center;
-  width: 72px;
-  height: 12px;
-  margin-top: 32px;
+
+.reviews-dots {
   display: flex;
   gap: 18px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.reviews-dot:first-child {
+  background-color: var(--main-bg);
+}
+
+.reviews-dot {
+  background-color: #d9d9d9;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.reviews-dot:hover {
+  background-color: var(--main-bg);
 }
