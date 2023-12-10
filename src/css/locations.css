@@ -6,6 +6,7 @@
 .locations-list {
   display: flex;
   gap: 32px;
+  justify-content: center;
 }
 
 .locations-item {
