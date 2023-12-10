@@ -1,5 +1,6 @@
 .howitsmade {
     background-color: var(--bg-color);
+    padding-top: 60px;
 }
 .about-uptitle {
     color: var(--second-text-color);
