@@ -62,7 +62,14 @@
   text-align: center;
 }
 
-
+.reviews-navs {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 18px;
+}
 
 #r1:checked ~ .s1 {
   margin-left: 0;
