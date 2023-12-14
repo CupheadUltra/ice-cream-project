@@ -82,11 +82,6 @@
   text-align: center;
 }
 
-input[type='radio'] {
-  visibility: hidden;
-  position: absolute;
-}
-
 
 
 #r1:checked ~ .s1 {
