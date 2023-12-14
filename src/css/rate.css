@@ -87,11 +87,7 @@ input[type='radio'] {
   position: absolute;
 }
 
-.reviews-item {
-  position: relative;
-  width: 33.3333333%;
-  transition: all 0.7s ease;
-}
+
 
 #r1:checked ~ .s1 {
   margin-left: 0;
