@@ -12,6 +12,13 @@
   height: 361px;
 }
 
+#
+.reviews-slides {
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
 .reviews-bar {
   width: 12px;
   height: 12px;
@@ -19,12 +26,6 @@
   cursor: pointer;
   border-radius: 12px;
   transition: all 0.3s ease;
-}
-
-.reviews-slides {
-  width: 300%;
-  height: 100%;
-  display: flex;
 }
 
 
