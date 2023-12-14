@@ -13,7 +13,6 @@
 }
 
 
-
 .reviews-slides {
   width: 300%;
   height: 100%;
@@ -34,8 +33,6 @@
   background-color: var(--main-bg);
 }
 
-.reviews-img {
-}
 
 .reviews-icon {
   border-radius: 50%;
@@ -45,7 +42,6 @@
 
 .reviews-desc {
   color: var(--additional);
-  background-color: var(--main-bg);
   border-radius: 24px;
   font-size: 16px;
   font-weight: 500;
