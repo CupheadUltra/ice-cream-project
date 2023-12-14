@@ -12,15 +12,7 @@
   height: 361px;
 }
 
-.reviews-slider {
-  width: 1013px;
-  height: 923px;
-  overflow: hidden;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-  left: 93px;
-}
+
 
 .reviews-slides {
   width: 300%;
