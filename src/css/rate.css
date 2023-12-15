@@ -1,4 +1,4 @@
-.rate {
+.reviews {
   background-image: url(../img/bg-ice-cream.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   background-color: var(--additional);
 }
 
-.rate-container {
+.reviews-container {
   position: relative;
   height: 361px;
 }
