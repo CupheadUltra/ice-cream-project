@@ -41,7 +41,7 @@
 .reviews-bar {
   width: 12px;
   height: 12px;
-  background-color: #d9d9d9;
+  background-color: white;
   cursor: pointer;
   border-radius: 12px;
   transition: all 0.3s ease;
