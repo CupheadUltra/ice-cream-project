@@ -1,6 +1,10 @@
 .locations {
   background-color: var(--bg-color);
-  padding: 100px 0 120px;
+}
+
+.locations-container {
+  position: relative;
+  top: -128px;
 }
 
 .locations-list {
@@ -112,27 +116,31 @@
 .locations-all {
   color: var(--black-color);
   text-align: center;
-  font-family: Montserrat;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 128.571%;
   padding: 12px 40px;
   border-radius: 10px;
   border: none;
   background-color: var(--text-color);
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .locations-franchise {
   color: var(--black-color);
   text-align: center;
-  font-family: Montserrat;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 128.571%;
   padding: 10px 53px;
   border-radius: 10px;
   border: 2px solid var(--text-color);
   background-color: transparent;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }

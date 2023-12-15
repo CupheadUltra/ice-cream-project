@@ -19,6 +19,7 @@
     font-weight: 400;
     letter-spacing: 2.16px;
     text-transform: uppercase;
+    margin-bottom: 82px;
 }
 .about-article {
     display: flex;
@@ -44,7 +45,7 @@
     font-weight: 600;
     line-height: 1.28;
     border-radius: 10px;
-    background-color: var(--products-two);
+    background-color: var(--text-color);
     padding: 12px 35px;
     border: none;
 }

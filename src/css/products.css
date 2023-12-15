@@ -1,10 +1,10 @@
 
 .products {
-    background-image: url(./img/bg-ice-cream.webp);
+    background-image: url(../img/bg-ice-cream.webp);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .natural {
@@ -24,7 +24,8 @@
     font-weight: 400;
     letter-spacing: 2.16px;
     text-transform: uppercase;
-    margin-bottom: 240px;
+    margin-bottom: 303px;
+    margin-top: 12px;
 }
 
 .img-product{
@@ -32,14 +33,6 @@
     top: -170px;
 justify-content: center;
 display: flex;
-}
-
-.img-product:nth-child(2) {
-
-}
-
-.img-product:last-child{
-
 }
 
 .cards-svg{
