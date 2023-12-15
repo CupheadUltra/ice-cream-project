@@ -3,7 +3,11 @@
     
 }
 
-
+.hero-box {
+    background-image: url(../img/hero-dots.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .hero-wrapper {
     display: flex;
