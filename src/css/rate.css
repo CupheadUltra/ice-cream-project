@@ -1,5 +1,4 @@
-
-.reviews {
+.rate {
   background-image: url(../img/bg-ice-cream.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +13,7 @@
 }
 
 
-.reviews-slider {
+.reviews-moving {
   width: 1013px;
   height: 923px;
   overflow: hidden;
