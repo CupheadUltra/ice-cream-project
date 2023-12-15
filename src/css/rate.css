@@ -63,8 +63,7 @@
 }
 
 .reviews-desc {
-  color: var(--additional);
-  background-color: var(--second-text-color;)
+  color: var(--second-text-color);
   border-radius: 24px;
   font-size: 16px;
   font-weight: 500;
