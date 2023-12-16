@@ -44,6 +44,10 @@ font-weight: 600;
 text-decoration-line: underline;
 }
 
+.hero-link:hover {
+    color: var(--hover-color);
+}
+
 .hero-btn {
     width: 134px;
 height: 42px;
@@ -58,6 +62,10 @@ border: 2px solid var(--text-color);
 border-radius: 10px;
 box-sizing: border-box;
 margin-right: 34px;
+}
+
+.hero-btn:hover {
+    border: 2px solid var(--hover-color);
 }
 
 .hero-list {
