@@ -90,7 +90,7 @@ input[type='radio'] {
   background-color: #D9D9D9;
   border-radius: 12px;
   transition: all 0.3s ease;
-  cursor: pointer;
+  cursor:url('../img/cursor.png');
   width: 12px;
 }
 

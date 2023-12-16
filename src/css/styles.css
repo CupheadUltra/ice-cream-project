@@ -28,7 +28,12 @@ html {
     --black-color: #000000;
     --hover-color: rgba(10, 136, 23, 1);
 }
-
+* {
+  cursor:url('../img/cursor.png'),pointer ;
+}
+button {
+  cursor:url('../img/cursor.png'),pointer;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
