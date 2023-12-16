@@ -33,6 +33,9 @@
   line-height: 1.86;
   letter-spacing: 0.64px;
   text-align: center;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .rate-moving {
@@ -51,6 +54,7 @@
   font-weight: 500;
   line-height: 1.86;
   text-align: center;
+  margin-top: 32px;
 }
 
 .reviews-container {
@@ -112,6 +116,7 @@ input[type='radio'] {
   max-height: 138px;
   box-sizing: content-box;
   background-color: var(--bg-color);
+  text-align: center;
 }
 
 
