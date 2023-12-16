@@ -8,8 +8,6 @@
 }
 
 
-
-
 .rate-navs {
   position: absolute;
   bottom: 0;
@@ -38,7 +36,7 @@
   margin-top: 140px;
 }
 
-.reviews-desc {
+.rate-desc {
   color: var(--second-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -47,7 +45,7 @@
   text-align: center;
 }
 
-.reviews-moving {
+.rate-moving {
   width: 300%;
   height: 100%;
   display: flex;
@@ -65,7 +63,7 @@
   background-color: var(--bg-color);
 }
 
-.reviews-info {
+.rate-info {
   color: var(--text);
   font-size: 16px;
   font-weight: 500;
@@ -83,7 +81,7 @@ input[type='radio'] {
   position: absolute;
 }
 
-.reviews-movement {
+.rate-movement {
   width: 1013px;
   height: 923px;
   overflow: hidden;
@@ -94,7 +92,7 @@ input[type='radio'] {
 }
 
 
-.reviews-item {
+.rate-item {
   position: relative;
   width: 33.3333333%;
   transition: all 0.7s ease;
