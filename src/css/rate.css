@@ -1,4 +1,4 @@
-.reviews {
+.rate {
   background-image: url(../img/bg-ice-cream.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,10 +7,7 @@
   background-color: var(--additional);
 }
 
-.reviews-container {
-  position: relative;
-  height: 361px;
-}
+
 
 .reviews-slider {
   width: 1013px;
@@ -51,7 +48,7 @@
   background-color: var(--bg-color);
 }
 
-.reviews-icon {
+.rate-icon {
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 140px;
@@ -66,7 +63,7 @@
   text-align: center;
 }
 
-.reviews-text {
+.rate-text {
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
@@ -84,6 +81,11 @@
   font-weight: 500;
   line-height: 1.86;
   text-align: center;
+}
+
+.reviews-container {
+  position: relative;
+  height: 360px;
 }
 
 input[type='radio'] {
