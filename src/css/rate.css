@@ -7,24 +7,10 @@
   background-color: var(--additional);
 }
 
-.reviews-movement {
-  width: 1013px;
-  height: 923px;
-  overflow: hidden;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-  left: 93px;
-}
 
 
-.reviews-moving {
-  width: 300%;
-  height: 100%;
-  display: flex;
-}
 
-.reviews-navs {
+.rate-navs {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -61,6 +47,12 @@
   text-align: center;
 }
 
+.reviews-moving {
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
 .rate-text {
   margin-left: auto;
   margin-right: auto;
@@ -90,6 +82,17 @@ input[type='radio'] {
   visibility: hidden;
   position: absolute;
 }
+
+.reviews-movement {
+  width: 1013px;
+  height: 923px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 93px;
+}
+
 
 .reviews-item {
   position: relative;
