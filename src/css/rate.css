@@ -7,15 +7,15 @@
   padding-bottom: 228px;
 }
 
-
-
+.rate-img {
+  margin-bottom: 140px;
+}
 
 .rate-dot:hover {
   background-color: var(--bg-color);
 }
 
 .rate-avatar {
-  margin-top: 140px;
   border-radius: 50%;
   margin: 0 auto;
 }
