@@ -7,9 +7,7 @@
   background-color: var(--additional);
 }
 
-
-
-.reviews-slider {
+.reviews-movement {
   width: 1013px;
   height: 923px;
   overflow: hidden;
@@ -20,7 +18,7 @@
 }
 
 
-.reviews-slides {
+.reviews-moving {
   width: 300%;
   height: 100%;
   display: flex;
