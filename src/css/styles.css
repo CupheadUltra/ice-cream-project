@@ -12,6 +12,10 @@ body {
   font-family: Montserrat;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
     --bg-color: #84A178;
     --text-color: #F8D24E;
