@@ -129,6 +129,10 @@
   gap: 4px;
 }
 
+.locations-all:hover {
+  background-color: var(--hover-color);
+}
+
 .locations-franchise {
   color: var(--black-color);
   text-align: center;
@@ -143,4 +147,8 @@
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.locations-franchise:hover {
+  border: 2px solid var(--hover-color);
 }

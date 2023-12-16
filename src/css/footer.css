@@ -60,14 +60,48 @@
   padding-bottom: 60px;
 }
 
-.github-img:hover {
+.github-img:last-child {
+  display: none;
+}
+
+.footer-link:hover .github-img:first-child {
+  display: none;
   cursor: pointer;
 }
 
-.telegram-img:hover {
+.footer-link:hover .github-img:last-child {
+  display: block;
   cursor: pointer;
 }
 
-.facebook-img:hover {
+/* t   */
+
+.telegram-img:last-child {
+  display: none;
+}
+
+.footer-link:hover .telegram-img:first-child {
+  display: none;
+  cursor: pointer;
+}
+
+.footer-link:hover .telegram-img:last-child {
+  display: block;
+  cursor: pointer;
+}
+
+/* f */
+
+.facebook-img:last-child {
+  display: none;
+}
+
+.footer-link:hover .facebook-img:first-child {
+  display: none;
+  cursor: pointer;
+}
+
+.footer-link:hover .facebook-img:last-child {
+  display: block;
   cursor: pointer;
 }
