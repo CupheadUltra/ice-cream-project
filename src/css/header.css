@@ -39,4 +39,7 @@ border-radius: 10px;
 background: var(--text-color);
 padding: 12px 36px;
 border: none;
+display: flex;
+gap: 4px;
+align-items: center;
 }
